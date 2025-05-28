@@ -1,9 +1,9 @@
+#!/bin/bash
 #Make sure the permissions on the script and the service file are correct. They should #be owned by root and the script should be executable.
 # chmod 744 /home/bgw/libc_usb/start.sh
 # chmod 644 /etc/systemd/system/libc_usb.service
-
-
-# apt-get install 
+apt update -y
+apt full-upgrade -y
 apt install -y dhcpcd
 
 mkdir /boot/firmware/bak
