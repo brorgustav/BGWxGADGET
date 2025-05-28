@@ -1,0 +1,3 @@
+Run this on boot in terminal:Run
+§ sudo chmod a+x /boot/firmware/bgwxgadget.sh
+§ sudo /boot/firmware/bgwxgadget.sh
